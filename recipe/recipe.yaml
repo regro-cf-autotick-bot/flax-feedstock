@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.12.6"
+  version: "0.12.8"
   python_min: "3.11"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/f/flax/flax-${{ version }}.tar.gz
-  sha256: 309a5fdfac8fe9cc03260c122a2cab6881bc366cd2d928aedb80ddffbfb202e4
+  sha256: 1bb438775b967a3f1f42b9c3d4ddf1d2883cd6406589f9cecdc244634036bdc4
   patches:
     # Remove after v0.12.6
     # c.f. https://github.com/google/flax/issues/5352
